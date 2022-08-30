@@ -1,0 +1,223 @@
+.html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/production\ ID\ 4478322.mp4");
+    background-color: rgb(29, 29, 29);
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 160px;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
+}
+
+.table {
+    border-spacing: 50px;
+}
+
+p {
+    font-family: sans-serif;
+    color: rgb(0, 3, 5);
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* header styles */
+
+.topbar {
+    overflow: hidden;
+    background-color: #333;
+    transition: 0.6s;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+}
+
+.top bar a {
+    float: left;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 900;
+}
+
+.topbar a:hover {
+    background-color: #2b2525;
+    color: rgb(99, 248, 112);
+}
+
+.bar item {
+    margin-left: 80px;
+    background-color: rgb(58, 104, 86);
+}
+
+#text fr {
+    padding-top: 5%;
+}
+
+
+/* tab styles */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tab content {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  /* top button */
+
+  #btnTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: blue; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#btnTop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+  /* Contact Info
+------------------------------------*/
+
+.section {
+    font-size: 80px;
+    margin-left: 50px;
+    padding-top: 5%;
+}
+
+.textresume {
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 400px;
+}
+
+/* footer */
+
+#bottompage {
+    height: 5vh;
+    width: 100vw;
+}
+
+#textbottom {
+    font-size: 17px;
+    position: absolute;
+    left: 10px;
+}
+
+#textfooter {
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+#source {
+    font-size: 18px;
+    position: absolute;
+    right: 90px;
+}
+
+#icongithub {
+    width: 25px;
+    height: 25px;
+}
+
+.slidetext {
+    animation-name: slidetext;
+    animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slidetext {
+    0% {
+        opacity: 0;
+        transform: translateX(-70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+/* Responsive
+------------------------------------*/
+
+@media screen and (min-width:750px) {
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+    .contact-list {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:749px) {
+    h1 {
+        font-size: 75px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+    h2 {
+        line-height: 1;
+    }
+    .contact-list a {
+        padding: 5px;
+    }
+}
