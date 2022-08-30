@@ -126,6 +126,15 @@ p {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    height: auto;
+  }
+
   /* Contact Info
 ------------------------------------*/
 
