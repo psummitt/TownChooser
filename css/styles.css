@@ -13,10 +13,12 @@ body {
 
 h1 {
     font-family: 'Caveat', cursive;
+    color: black;
     font-size: 160px;
 }
 
 h2 {
+    color: black;
     font-family: 'Caveat', cursive;
     font-size: 80px;
 }
@@ -46,6 +48,7 @@ p {
 
 .top bar a {
     float: left;
+    color: black;
     text-align: center;
     padding: 16px;
     text-decoration: none;
@@ -61,6 +64,7 @@ p {
 .bar item {
     margin-left: 80px;
     background-color: rgb(58, 104, 86);
+    color: black;
 }
 
 #text fr {
@@ -139,12 +143,14 @@ img {
 ------------------------------------*/
 
 .section {
+    color: black;
     font-size: 80px;
     margin-left: 50px;
     padding-top: 5%;
 }
 
 .textresume {
+    color: black;
     font-size: 30px;
     text-align: justify;
     margin-left: 400px;
@@ -158,14 +164,16 @@ img {
 }
 
 #textbottom {
+    color: black;
     font-size: 17px;
     position: absolute;
     left: 10px;
 }
 
 #textfooter {
+    color: black;
     font-size: 25px;
-    text-align: justify;
+    text-align: left;
     margin-left: 50px;
 }
 
