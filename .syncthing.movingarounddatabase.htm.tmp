@@ -50,13 +50,23 @@
 pushing a <a href="definitions.htm#button">button</a>. Basically, there are four
 buttons you can use to move around the database.</p>
 
-<p><img class="img" src="images/MoveFirst.jpg" alt="Move First button"><b><a name="Move First"> Move First</a></b>: Pushing this
+<<<<<<< HEAD
+<p><img border="0" src="images/MoveFirst.jpg" alt="Move First button" width="67"
+height="27">&nbsp;&nbsp;&nbsp; <b><a name="Move First">Move First</a></b>: Pushing this
+=======
+<p><img class="img" src="images/MoveFirst.jpg" alt="Move First button"><b><a name="Move First">Move First</a></b>: Pushing this
+>>>>>>> 5040ad45796a7537d5e3835c8f096ec07a2e2776
 button will take you to the very first <a href="definitions.htm#towns"> town</a> listed in
 the database. This first town name will be listed in the <b>Town Name </b>textbox.
 By default, when you first open the <b>Edit Town Names</b> <a
 href="definitions.htm#window"> Window</a> the database starts at this position.</p>
 
-<p><img class="img" src="images/moveprev.jpg" alt="Move Previous button"><b><a name="Move Prev"> Move Prev</a></b>:
+<<<<<<< HEAD
+<p><img border="0" src="images/moveprev.jpg" alt="Move Previous button"
+width="67" height="26"><b><a name="Move Prev">Move Prev</a></b>:
+=======
+<p><img class="img" src="images/moveprev.jpg" alt="Move Previous button"><b><a name="Move Prev">Move Prev</a></b>:
+>>>>>>> 5040ad45796a7537d5e3835c8f096ec07a2e2776
 Pushing this button will take you to the previous town in the database. In other
 words, if you're at the fifth town name in the database, pushing this button will move you
 to the fourth town in the database. The new town name will be presented in the <b>Town
@@ -64,18 +74,36 @@ Name</b> <a href="definitions.htm#textbox">textbox</a>. If you are at the very f
 town name in the database you'll receive an error message telling you that you are at the
 first town in the database.</p>
 
-<p><img class="img" src="images/movenext.jpg" alt="Move Next button" ><b><a name="Move Next"> Move Next</a></b>: Pushing this
+<<<<<<< HEAD
+<p><img border="0" src="images/movenext.jpg" alt="Move Next button" width="68"
+height="28"><b><a name="Move Next">Move Next</a></b>: Pushing this
+=======
+<p><img class="img" src="images/movenext.jpg" alt="Move Next button" ><b><a name="Move Next">Move Next</a></b>: Pushing this
+>>>>>>> 5040ad45796a7537d5e3835c8f096ec07a2e2776
 button will take you to the next town name in the database. If you are at the first town
 name it will move you to the second. The new town name will be presented in the <b>Town
 Name</b> textbox. If you are at the very last town name in the database you'll
 receive an error message telling you that you are at the last town in the database.</p>
 
-<p><img class="img" src="images/movelast.jpg" alt="Move Last button"> <b><a name="Move Last"> Move Last</a></b>: Pushing this
+<<<<<<< HEAD
+<p><img border="0" src="images/movelast.jpg" alt="Move Last button" width="68"
+height="28"> <b><a name="Move Last">Move Last</a></b>: Pushing this
+button will take you to the very last town listed in the database.&nbsp; This last town
+=======
+<p><img class="img" src="images/movelast.jpg" alt="Move Last button"> <b><a name="Move Last">Move Last</a></b>: Pushing this
 button will take you to the very last town listed in the database. This last town
+>>>>>>> 5040ad45796a7537d5e3835c8f096ec07a2e2776
 name will be listed in the <b>Town Name </b>textbox.</p>
 
 <p>You can also move around in the database by using the <a href="findtownname.htm">Find</a>
 button.</p>
+<<<<<<< HEAD
+
+<!--webbot bot="Include" U-Include="../../_private/vreftr.htm" TAG="BODY" startspan --><strong>[VREVOLUTION_com/_private/vreftr.htm]</strong><!--webbot bot="Include" endspan i-checksum="22733" -->
+
+<p>&nbsp;</p>
+
+=======
 </div>
 <footer class="bg-light">
     <div>
@@ -99,5 +127,6 @@ button.</p>
       <a href="https://github.com/psummitt/psummitt"><img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656799346/images/211903_github_social_icon_n80emp.png" title="github"
                   id="icongithub"></a></p>
 </footer>
+>>>>>>> 5040ad45796a7537d5e3835c8f096ec07a2e2776
 </body>
 </html>
