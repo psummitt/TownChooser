@@ -1,0 +1,9 @@
+{
+	"name": "TestDataFactoryPMS",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e4a894e5-0666-4b44-ab75-effe47b74c12",
+		"tenantId": "c6072e67-5a96-4c99-866d-94ea0a0d5ea0"
+	}
+}
